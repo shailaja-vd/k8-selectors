@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: taint
+  name: tain 
   labels:
-    purpose: "taint-demo"
+    purpose: "tain-demo"
 spec:
   nodeSelector:
     topology.kubernetes.io/zone: us-east-1b
